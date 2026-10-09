@@ -109,5 +109,24 @@ generate
 This is a data analysis project in R that examines customer purchasing trends using a synthetic retail sales dataset. The project cleans the dataset, calculates summary statistics (mean purchase, top categories), creates exploratory visual plots, and models monthly revenue. Key scripts include data cleaning and visualization using standard R packages like tidyverse, ggplot2, and dplyr
 Here’s a summary of my R project
 professional README.md file using Markdown
+AI Assistance Declaration: I used ChatGPT for drafting layout structures, generating Markdown documentation templates, and refining syntax. Prompts used: "Explain what sections a good GitHub README for an R data analysis project should include", "Generate a professional README.md file using Markdown", and "Add sections for Installation, Example Code, and License". I verified outputs using GitHub Preview and comparing with tidyverse documentation. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+# Customer Sales Trends Analysis in R
+
+A data science project in R that explores customer purchasing behavior, cleans synthetic retail sales data, calculates summary metrics, and visualizes revenue trends.
+
+## Overview
+This repository contains a full exploratory data analysis (EDA) workflow designed to evaluate retail transaction metrics. The analysis handles missing values, calculates total and monthly sales per customer segment, and creates visual summaries for decision-making.
+
+## Features
+- Data cleaning and missing-value imputation.
+- Summary statistics calculation (average spend, top purchasing categories).
+- Data visualization for monthly revenue streams.
+
+## Installation & Dependencies
+To run the analysis locally, ensure you have R installed along with the required packages:
+
+```r
+install.packages(c("tidyverse", "ggplot2", "dplyr", "lubridate"))
 
 
